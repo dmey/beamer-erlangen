@@ -1,12 +1,11 @@
-\ProvidesPackage{beamerthemeerlangen}[2012/09/01]
+\RequirePackage{../style/appendix}
+\RequirePackage{../style/colors}
 \RequirePackage{tikz}
 \RequirePackage{calc}
-\RequirePackage{appendixnumberbeamer}
-
 \RequirePackage[scriptsize,it]{caption}
 \RequirePackage{ccicons}
 \captionsetup{labelformat=empty,labelsep=none}
-
+%
 \mode<presentation>
 
 %%% variables and options
@@ -35,7 +34,6 @@
 
 \useinnertheme{circles}
 \useoutertheme{miniframes}
-\usecolortheme{erlangen}
 
 \setbeamertemplate{navigation symbols}{}
 \setbeamertemplate{background canvas}[vertical shading][bottom=white,middle=white!15,top=gray!15]
@@ -48,7 +46,7 @@
   \thispagestyle{empty}
 
   \begin{picture}(0,0)(0,0)
-    \put(-29,-171){\includegraphics[width=1.01\paperwidth]{assets/titlepage.pdf}}
+    \put(-29,-171){\includegraphics[width=1.01\paperwidth]{../style/assets/titlepage.pdf}}%
   \end{picture}
 
   \begin{picture}(0,0)(0,0)
